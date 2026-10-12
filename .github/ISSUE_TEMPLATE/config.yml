@@ -4,5 +4,5 @@ contact_links:
     url: https://subtitle.im/help/
     about: Installation, caption handling and licensing FAQs / 安装、字幕处理与权益常见问题
   - name: Account, payment or security / 账号、支付或安全问题
-    url: mailto:support@subtitle.im
-    about: Contact privately; do not post account details in public issues / 请私下联系，不要在公开 Issue 中填写账号资料
+    url: https://subtitle.im/help/
+    about: Email support@subtitle.im privately; find the contact address on the help page / 请通过帮助页的 support@subtitle.im 私下联系
