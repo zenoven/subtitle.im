@@ -1,0 +1,23 @@
+name: Feature request / 功能建议
+description: Suggest an improvement and explain the use case / 提出改进与使用场景
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case / 问题与使用场景
+      description: What are you trying to do, and what is difficult today? / 你想完成什么，目前哪里不方便？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement / 改进建议
+      description: Describe your preferred behavior. / 描述你希望产品如何工作。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and additional context / 替代办法与补充说明

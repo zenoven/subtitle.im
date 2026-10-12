@@ -1,0 +1,48 @@
+name: Bug report / 问题报告
+description: Report an unexpected result or subtitle handling problem / 反馈异常或字幕处理问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English and Chinese are welcome. Issues are public; remove personal details from screenshots and logs.
+        中英文均可。Issue 公开可见，请去掉截图和日志中的私人信息。
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+      description: What should happen, and what happened instead? / 你期望发生什么，实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: |
+        1. Open a video / 打开视频
+        2. Enable captions / 开启字幕
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: video
+    attributes:
+      label: Video and caption details / 视频与字幕信息
+      description: Public URL, timestamp, enabled caption track/language, burned-in subtitle language and relevant settings. Skip if unrelated. / 公开视频链接、时间点、当前软字幕轨与语言、硬字幕语言及相关设置；无关时可不填。
+  - type: input
+    id: extension
+    attributes:
+      label: Extension version / 扩展版本
+      description: Find it in Chrome's extension details. If unavailable, write unknown. / 查看 Chrome 扩展详情；不清楚可填 unknown。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Chrome version and operating system / Chrome 版本与操作系统
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or additional context / 截图或补充说明
+      description: Redact private data. Do not upload tokens, cookies or verification codes. / 请去掉私人信息，不要上传令牌、Cookie 或验证码。

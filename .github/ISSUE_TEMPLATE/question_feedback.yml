@@ -1,0 +1,28 @@
+name: Question / feedback / 咨询与反馈
+description: Ask a usage question or share your experience / 咨询使用问题或分享体验
+title: "[Feedback] "
+labels: [feedback]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Feedback type / 反馈类型
+      options:
+        - Usage question / 使用咨询
+        - Product feedback / 产品体验
+        - Documentation / 文档建议
+        - Other / 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details / 具体内容
+      description: English and Chinese are welcome. For account, payment or security matters, contact support@subtitle.im privately. / 中英文均可。账号、支付或安全问题请私下联系 support@subtitle.im。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / 补充信息
+      description: Relevant public video links, timestamps or screenshots, with private information removed. / 可补充公开视频链接、时间点或截图，请去掉私人信息。
