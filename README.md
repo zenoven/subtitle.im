@@ -18,7 +18,13 @@ Free use needs no sign-up and includes 10 successfully handled videos per instal
 
 Recognition runs locally in your browser without uploading video frames or subtitle text for detection. Account and purchase services use a separate online connection.
 
-The extension manages switchable YouTube captions. It does not generate, translate or download subtitles, or remove burned-in subtitles. Detection can miss subtitles or produce false positives; restore captions if needed.
+The extension manages switchable YouTube captions. It does not generate a caption track from the video's audio or remove burned-in subtitles. Detection can miss subtitles or produce false positives; restore captions if needed.
+
+## Make a handout from a transcript
+
+Open **Transcript** on a video with captions. Download the text as a free TXT file, or use the Pro PDF option and choose **Save as PDF** in the print window. With TXT, open the file in a text editor and print it to PDF. Keep the video URL and timestamps if readers need to revisit the source.
+
+Save any exercises or notes as a second PDF. Use the merge tool in [PDF Fan](https://pdf.fan/) to arrange the transcript and exercises in reading order. Before sharing the handout, check that the PDF includes the full passage you intended to share and that the timestamps are readable. See the [transcript download guide](https://subtitle.im/blog/download-youtube-transcript/) for format details.
 
 ## Problems, ideas and questions
 
